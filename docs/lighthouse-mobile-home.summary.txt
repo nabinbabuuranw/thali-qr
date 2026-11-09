@@ -1,0 +1,4 @@
+Lighthouse 12, mobile emulation, home page of the local build (not the live URL)
+Performance 91, Accessibility 100, Best Practices 100, SEO 100
+LCP 2.9 s, CLS 0, TBT 0 ms
+Run 2026-11-09. Full HTML/JSON report in the Day 7 folder.

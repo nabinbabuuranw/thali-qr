@@ -1,0 +1,35 @@
+{
+  "name": "thali-qr",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Thali QR: restaurant table QR ordering, kitchen display and bill splitting (DEMO data)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc -p tsconfig.json && tsc -p tsconfig.api.json",
+    "test": "node --test api/test/*.test.ts",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.api.json && vite build && node api/build.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/bricolage-grotesque": "^5.1.0",
+    "@fontsource/noto-sans-devanagari": "^5.1.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@types/node": "^22.10.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.21.5",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  }
+}

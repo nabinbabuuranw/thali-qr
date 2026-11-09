@@ -1,0 +1,39 @@
+{
+  "name": "Thali QR",
+  "coolors_url": "https://coolors.co/1f1b1e-f9f3ef-a3204a-b7862a-2d7a5f",
+  "source": "built from five hexes; not picked on Nabin's logged-in Coolors account (stated deviation, as Days 5 and 6)",
+  "primary_hexes": {
+    "ink": "#1F1B1E",
+    "paper": "#F9F3EF",
+    "rose": "#A3204A",
+    "brass": "#B7862A",
+    "teal_green": "#2D7A5F"
+  },
+  "derived": {
+    "card": "#FCF7F4",
+    "sunk": "#F1E6DF",
+    "line": "#E2D3C9",
+    "muted": "#5C5256",
+    "rose_deep": "#7F1738",
+    "rose_soft": "#F6DCE4",
+    "brass_soft": "#F3E5C6",
+    "brass_ink": "#6E4E10",
+    "ok_soft": "#DCEEE6",
+    "danger": "#B3261E",
+    "danger_soft": "#F7DEDB",
+    "kitchen_surface": "#2A2326",
+    "kitchen_line": "#4A4045",
+    "kitchen_text": "#F4ECE6",
+    "kitchen_muted": "#CFC4BE"
+  },
+  "contrast_wcag": {
+    "ink_on_paper": 15.48,
+    "rose_on_paper": 6.67,
+    "white_on_rose": 7.34,
+    "brass_ink_on_paper": 6.92,
+    "teal_green_on_paper": 4.7,
+    "muted_on_paper": 6.83,
+    "brass_on_kitchen_ink": 5.23,
+    "kitchen_text_on_ink": 14.58
+  }
+}
